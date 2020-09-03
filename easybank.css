@@ -1,0 +1,142 @@
+.header{   
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+#headerButton{
+    border-radius: 10px 10px 10px 10px;
+}    
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fondo{
+    position: absolute;
+    float: right;
+    z-index: -1;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+.fondo1{
+    position: absolute;
+    z-index: -1;
+    float: right;
+    margin-left: 850px;
+    margin-top: -200px;
+}
+.imagenes{
+    width: 50%;
+    height: 50%;
+    border: solid black 2px
+}
+#MyButton{
+    margin: 5%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: greenyellow;
+}
+h1{
+    font-family: Arial;
+    font-size: 3vw;
+    color: black;
+    text-align: left;
+}
+h2{
+    font-size: 2vw;
+}
+
+#navbarfooter{
+    background-color:  #2d314e;
+}
+#logo{
+    background-color: gainsboro;
+    width: 300px;
+    position: absolute;
+    margin-top: -80px; 
+}
+
+    
+
+.footer{
+    width: 100%;
+    background-color:  #2d314e;
+    height: 100px;
+    
+}
+
+.list1{
+    margin-left: 30%;
+    margin-top: -5%;
+}
+.list2{
+    margin-left: 50%;
+    margin-top: -5%;
+}
+.buttonFooter{
+    margin-left: 60%;
+    margin-top: -25%;
+    border-radius: 10px 10px 10px 10px ;
+    
+}
+.buttonContainer{
+    margin-top: -5%;
+}
+.labelFooter{
+    margin-left: 60%;
+    margin-top: 5%;
+}
+#navfooter{
+    margin-left: 400px;
+    margin-top: -150px;
+    width: 80px;
+    font-size: large;    
+}
+#navfooter1{
+    margin-left: 600px;
+    margin-top: -140px;
+    width: 80px;
+    font-size: large;
+    
+}
+
+#footerbutton{
+    margin-left: 900px;
+    margin-top: -160px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+@media(max-width:960px){
+    .fondo{
+        
+        margin-left: 30px;
+        margin-top: -400px;
+        z-index: -1;
+        width: 400px;
+    }
+    .fondo1{
+        
+        margin-left: 30px;
+        margin-top: -400px;
+        width: 300px;
+    }
+    .header{
+        margin-bottom: 300px;
+    }
+    .navbar-burger{
+        margin-left: 20px;
+        
+    }
+    #navfooter{
+        display: none;
+    }
+    #navfooter1{
+        display: none;
+    }
+    #footerbutton{
+        margin-left: 40%;
+        margin-top: -60px;
+    }
+    
+}
